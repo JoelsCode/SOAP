@@ -11,10 +11,9 @@ var tstream = new Twitter({
     token: '269905794-K9rJrVbTOENxf8m073PIWFG4slz6owlnYgpcJmi2',
     token_secret: 'xJAtj9noVWgjER7XeJxOKAM1kTnfYlpeHxsOXwTXRt7Io'
 })
-tstream.trackMultiple(["MacOS"]);
+tstream.trackMultiple(["Addigy","Jamf","ConnectWise","BrightGauge","ITGlue","MacOS", "High Sierra", "Labtech" ]);
 
 tstream.on("tweet",function(tweet){
-    
     var tweetInfo = {
         name: tweet.user.name,
         text: tweet.text,
@@ -32,5 +31,5 @@ tstream.on("tweet",function(tweet){
         profileURL: "https://twitter.com/" + tweet.user.screen_name,
     }
 
-    console.log(tweetInfo);
+        console.log(tweetInfo)
 })
