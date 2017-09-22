@@ -1,0 +1,24 @@
+{
+  "name": "soap",
+  "version": "0.0.1",
+  "description": "Twitter bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelsCode/SOAP.git"
+  },
+  "author": "Joel Cedano, Eddy Mendez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoelsCode/SOAP/issues"
+  },
+  "homepage": "https://github.com/JoelsCode/SOAP#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "slack-notify": "^0.1.6",
+    "twit": "^2.2.9"
+  }
+}
